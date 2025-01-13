@@ -222,4 +222,8 @@ html {
   font-weight: bold;
   font-family: "Roboto-Bold" !important;
   letter-spacing: 1.6px;
+}
+
+.sl-wrapper {
+  background: #f8f9fa;
 }/*# sourceMappingURL=app.css.map */
