@@ -289,7 +289,7 @@ a:hover h5 {
 .sit_status {
   display: flex;
   justify-content: space-between;
-  row-gap: 15px;
+  gap: 15px;
 }
 .sit_status .sit {
   display: none;
