@@ -39,9 +39,10 @@ body {
 
         .columns {
             flex: 1;
-            &:nth-child(2){
-                img{
-                    @media(max-width:768px){
+
+            &:nth-child(2) {
+                img {
+                    @media(max-width:768px) {
                         width: 190px;
                     }
                 }
@@ -149,7 +150,7 @@ body {
     }
 }
 
-.btn-theme-outline{
+.btn-theme-outline {
     font-size: 15px;
     text-transform: capitalize;
     border-radius: 22px;
@@ -158,14 +159,15 @@ body {
     background: #302B35;
     font-weight: 500;
     color: $white;
-     border: 1px solid $white;
+    border: 1px solid $white;
+
     &:hover {
         color: #000;
         background: $white;
     }
 }
 
-.btn-theme-form{
+.btn-theme-form {
     font-size: 15px;
     text-transform: capitalize;
     border-radius: 22px;
@@ -173,34 +175,37 @@ body {
     padding: 11px 26px;
     background: #000000;
     font-weight: 500;
-    color: #ffffff; 
+    color: #ffffff;
     min-width: 190px;
     border: 0;
-    &:hover { 
+
+    &:hover {
         background: #AA53F7;
     }
 }
 
-.form-bg{
-   background:  linear-gradient(50.498759152186665deg, #000000 8.891858552631579%, #05948C 48.2696533203125%, #7B62DF 80.902099609375%);
+.form-bg {
+    background: linear-gradient(50.498759152186665deg, #000000 8.891858552631579%, #05948C 48.2696533203125%, #7B62DF 80.902099609375%);
 }
- 
+
 
 .footer-bg {
     background: $white;
     position: relative;
     height: 300px;
 
-    @media(max-width:960px){
-        height: unset; 
+    @media(max-width:960px) {
+        height: unset;
     }
-      
+
     ul li a {
         line-height: 2;
-        &:hover{
-            color: #007E85!important;
+
+        &:hover {
+            color: #007E85 !important;
         }
     }
+
     iconify-icon {
         color: $theme;
         font-size: 1.5rem;
@@ -294,43 +299,56 @@ html {
     }
 }
 
-a{
+a {
     img {
         transition: all 0.7s ease-in-out;
-    } 
+    }
+
     &:hover {
         .eventPhoto {
             img {
-                    transform: scale(1.05);
-                }
+                transform: scale(1.05);
+            }
+
+           
         }
-       
+
+        h5 {
+
+            background: linear-gradient(45deg, #00968C, #214ED7);
+            background-clip: text;
+            color: transparent!important;
+
+        }
+
     }
 }
 
-.subscribe{
+.subscribe {
     background: #BABDC7;
 }
-.subs-input{
+
+.subs-input {
     width: 100%;
     background: transparent;
     outline: 0;
     margin-top: 25px;
     border: 0;
-    color: #fff; 
+    color: #fff;
     padding: 10px 5px;
     border-bottom: 1px solid $white;
-    &:focus{
 
-    }
+    &:focus {}
 }
-.hr-line{
-    background: #000000; 
+
+.hr-line {
+    background: #000000;
     height: 1px;
     border: 0;
     opacity: 1;
     margin-top: 25px;
 }
+
 .eventPhotoSlider {
     background-image: url('../images/DGM Background.avif');
     background-size: cover;
@@ -350,20 +368,23 @@ a{
     background-repeat: no-repeat;
     min-height: 350px;
     background-position: 60% 70%;
-    .main-title{
+
+    .main-title {
         font-size: 10vw;
         color: #fff;
         font-weight: bolder;
         font-family: "roboto-bold";
         line-height: 0.7;
     }
-    .sub-title{
+
+    .sub-title {
         font-size: 4.5vw;
         color: #fff;
         font-weight: bolder;
         font-family: "roboto-bold";
     }
-    .title{
+
+    .title {
         font-size: 55px;
         color: #fff;
         font-weight: bolder;
@@ -380,8 +401,8 @@ a{
     background: linear-gradient(to right, #000000 29%, #214ED7, #00968C);
 
     .intro {
-      
-        @media(min-width:1024px){
+
+        @media(min-width:1024px) {
             position: absolute;
             bottom: 15px;
         }
@@ -401,13 +422,13 @@ a{
     }
 }
 
-.about-new{
+.about-new {
     @extend .about;
     background: #302B35;
 }
 
- 
 
-.sl-wrapper { 
+
+.sl-wrapper {
     background: #f8f9fa;
 }
