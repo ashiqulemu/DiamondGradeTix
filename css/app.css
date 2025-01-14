@@ -1,17 +1,43 @@
 @font-face {
-  src: url("../fonts/Roboto-Regular.ttf");
-  font-family: "Roboto-Regular";
+  src: url("../fonts/helveticaneuew.woff2");
+  font-family: "helveticaneuew";
 }
 @font-face {
-  src: url("../fonts/Roboto-Bold.ttf");
-  font-family: "Roboto-Bold";
+  src: url("../fonts/para-text.woff2");
+  font-family: "para-text";
 }
-body {
-  font-family: "Roboto-Regular";
+@font-face {
+  src: url("../fonts/small-title.woff2");
+  font-family: "small-title", sans-serif;
+}
+@font-face {
+  src: url("../fonts/wider.woff2");
+  font-family: "wider";
+}
+@font-face {
+  src: url("../fonts/montserrat-bold.woff2");
+  font-family: "montserrat-bold", sans-serif;
+}
+.para-text {
+  font-family: "para-text";
 }
 
-.roboto-bold {
-  font-family: "Roboto-Bold" !important;
+.wider {
+  font-family: "wider";
+  font-weight: bold;
+}
+
+.montserrat-bold {
+  font-family: "montserrat-bold", sans-serif;
+  font-weight: bold;
+}
+
+.small-title {
+  font-family: "small-title", sans-serif;
+}
+
+.helveticaneuew {
+  font-family: "helveticaneuew";
 }
 
 .site-header .header-row {
@@ -54,7 +80,7 @@ body {
   color: #807D83;
   line-height: 1.7;
   font-size: 1.2rem;
-  font-family: "Roboto-Regular";
+  font-family: "para-text";
 }
 .offcanvas-body .social-links a:hover {
   color: black;
@@ -66,6 +92,7 @@ body {
   font-family: "Roboto-Bold";
   text-transform: uppercase;
   font-size: 3rem;
+  font-family: wider;
 }
 .menus li a:hover {
   background: linear-gradient(45deg, #00968C, #214ED7);
@@ -175,9 +202,9 @@ html {
   font-size: 53px;
   color: #fff;
   text-align: center;
-  transform: translate(0%, 226%);
+  transform: translate(0%, 184%);
   font-weight: bold;
-  font-family: "roboto-bold";
+  font-family: "montserrat-bold", sans-serif;
 }
 
 .slick-next {
@@ -240,6 +267,110 @@ a:hover h5 {
   color: transparent !important;
 }
 
+.select_adjust {
+  height: 48px;
+  width: 230px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+@media (max-width: 768px) {
+  .select_adjust {
+    width: 100%;
+  }
+}
+.select_adjust:hover {
+  border-color: #000;
+}
+.select_adjust:focus {
+  box-shadow: none;
+}
+
+.sit_status {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 15px;
+}
+.sit_status .sit {
+  display: none;
+}
+.sit_status label {
+  cursor: pointer;
+  padding: 6px 23px;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.sit_status label:hover {
+  background: #00AE89;
+  color: #fff;
+}
+.sit_status .sit:checked + label {
+  background-color: #00968C;
+  padding: 6px 23px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+  .bottom-box {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form-bottom-box {
+    position: absolute;
+    width: 85%;
+    bottom: 44px;
+  }
+}
+
+.hover-blue {
+  border: 0;
+}
+.hover-blue:hover {
+  background: #204DD7 !important;
+}
+
+.hover-teal {
+  border: 0;
+}
+.hover-teal:hover {
+  background: #00968C !important;
+}
+
+.seat_plan {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  max-height: 84vh;
+  overflow-y: auto;
+}
+.seat_plan::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 7px;
+}
+.seat_plan::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: linear-gradient(to right, #fff, #e4e4e4);
+  border: 1px solid #ccc;
+}
+.seat_plan .items {
+  background: #005EF7;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 13px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
 .subscribe {
   background: #BABDC7;
 }
@@ -286,20 +417,17 @@ a:hover h5 {
   font-size: 10vw;
   color: #fff;
   font-weight: bolder;
-  font-family: "roboto-bold";
   line-height: 0.7;
 }
 .top-search-events-new .sub-title {
-  font-size: 4.5vw;
+  font-size: 4.6vw;
   color: #fff;
   font-weight: bolder;
-  font-family: "roboto-bold";
 }
 .top-search-events-new .title {
   font-size: 55px;
   color: #fff;
   font-weight: bolder;
-  font-family: "roboto-bold";
 }
 
 .offcanvas-backdrop.show {
@@ -317,13 +445,11 @@ a:hover h5 {
 }
 .about .intro h4, .about-new .intro h4 {
   text-transform: uppercase;
-  font-family: "Roboto-Bold" !important;
 }
 .about .intro h1, .about-new .intro h1 {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
-  font-family: "Roboto-Bold" !important;
   letter-spacing: 1.6px;
 }
 
@@ -333,4 +459,15 @@ a:hover h5 {
 
 .sl-wrapper {
   background: #f8f9fa;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  font-family: "para-text";
+}
+@media (max-width: 768px) {
+  .list-unstyled {
+    text-align: center;
+  }
 }/*# sourceMappingURL=app.css.map */
