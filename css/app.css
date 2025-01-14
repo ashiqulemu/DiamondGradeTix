@@ -209,7 +209,7 @@ html {
 @media (max-width: 768px) {
   .section-title {
     font-size: 41px;
-    transform: translate(0%, 292%);
+    transform: translate(0%, 129px);
   }
 }
 
