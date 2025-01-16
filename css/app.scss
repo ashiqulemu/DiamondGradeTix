@@ -632,7 +632,7 @@ a {
 
         @media(min-width:1024px) {
             position: absolute;
-            bottom: 15px;
+            bottom: 10px;
         }
 
         h4 {
@@ -650,10 +650,9 @@ a {
 }
 
 .about-new {
-    @extend .about;
-    min-block-size: max-content;
-    background: #302B35;
-     
+    @extend .about; 
+    background: #302B35; 
+    height: auto;
 }
 
 

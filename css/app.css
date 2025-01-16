@@ -511,7 +511,7 @@ a:hover h5 {
 @media (min-width: 1024px) {
   .about .intro, .about-new .intro {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
   }
 }
 .about .intro h4, .about-new .intro h4 {
@@ -525,9 +525,8 @@ a:hover h5 {
 }
 
 .about-new {
-  min-block-size: -moz-max-content;
-  min-block-size: max-content;
   background: #302B35;
+  height: auto;
 }
 
 .sl-wrapper {
