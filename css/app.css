@@ -15,8 +15,20 @@
   font-family: "wider";
 }
 @font-face {
-  src: url("../fonts/montserrat-bold.woff2");
-  font-family: "montserrat-bold", sans-serif;
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-family: "montserrat-bold";
+}
+@font-face {
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: "montserrat-regular";
+}
+@font-face {
+  src: url("../fonts/Blacker-Sans-Pro-Extrabold.otf");
+  font-family: "Blacker-Sans-Pro-Extrabold";
+}
+@font-face {
+  src: url("../fonts/horizon.otf");
+  font-family: "horizon";
 }
 .para-text {
   font-family: "para-text";
@@ -28,8 +40,19 @@
 }
 
 .montserrat-bold {
-  font-family: montserrat, sans-serif;
-  font-weight: bold;
+  font-family: "montserrat-bold";
+}
+
+.montserrat-regular {
+  font-family: "montserrat-regular";
+}
+
+.blacker-sans-pro-extrabold {
+  font-family: "Blacker-Sans-Pro-Extrabold";
+}
+
+.horizon {
+  font-family: "horizon";
 }
 
 .small-title {
@@ -165,11 +188,12 @@
   border: 0;
 }
 .btn-theme-form:hover {
-  background: #AA53F7;
+  background: #ffffff;
+  color: #000;
 }
 
 .form-bg {
-  background: linear-gradient(50.4987591522deg, #000000 8.8918585526%, #05948C 48.2696533203%, #7B62DF 80.9020996094%);
+  background: linear-gradient(67deg, #000000 8.8918585526%, #05948C 48.2696533203%, #7B62DF 80.9020996094%);
 }
 
 .footer-bg {
@@ -204,7 +228,6 @@ html {
   text-align: center;
   transform: translate(0%, 184%);
   font-weight: bold;
-  font-family: "montserrat-bold", sans-serif;
 }
 @media (max-width: 768px) {
   .section-title {
@@ -294,7 +317,6 @@ a:hover h5 {
 
 .sit_status {
   display: flex;
-  justify-content: space-between;
   -moz-column-gap: 15px;
        column-gap: 15px;
   row-gap: 6px;
@@ -314,9 +336,11 @@ a:hover h5 {
   color: #000000;
   border-radius: 30px;
   font-size: 15px;
+  background: #343535;
+  color: #fff;
 }
 .sit_status label:hover {
-  background: #00AE89;
+  background: #0062EF;
   color: #fff;
 }
 .sit_status .sit:checked + label {
@@ -330,7 +354,8 @@ a:hover h5 {
 @media (min-width: 1024px) {
   .bottom-box {
     position: absolute;
-    width: 100%;
+    left: 0;
+    right: 15px;
     bottom: 0;
   }
 }
@@ -361,7 +386,7 @@ a:hover h5 {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  max-height: 84vh;
+  max-height: 400px;
   overflow-y: auto;
 }
 .seat_plan::-webkit-scrollbar {
@@ -379,7 +404,6 @@ a:hover h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
   padding: 13px 25px;
   border-radius: 30px;
   font-size: 20px;
@@ -452,6 +476,11 @@ a:hover h5 {
   background: linear-gradient(to right, #000000 29%, #214ED7, #00968C);
 }
 @media (min-width: 1024px) {
+  .about, .about-new {
+    height: 430px;
+  }
+}
+@media (min-width: 1024px) {
   .about .intro, .about-new .intro {
     position: absolute;
     bottom: 15px;
@@ -462,12 +491,14 @@ a:hover h5 {
 }
 .about .intro h1, .about-new .intro h1 {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: bold;
   letter-spacing: 1.6px;
 }
 
 .about-new {
+  min-block-size: -moz-max-content;
+  min-block-size: max-content;
   background: #302B35;
 }
 
