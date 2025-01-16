@@ -115,6 +115,7 @@
   padding: 0 15px;
   text-align: left;
   display: flex;
+  font-family: "montserrat-regular";
   flex-direction: column;
 }
 .offcanvas-body .social-links a {
@@ -536,7 +537,7 @@ a:hover h5 {
 .list-unstyled {
   padding-left: 0;
   list-style: none;
-  font-family: "para-text";
+  font-family: "montserrat-regular";
 }
 @media (max-width: 768px) {
   .list-unstyled {

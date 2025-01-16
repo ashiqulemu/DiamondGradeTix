@@ -57,7 +57,7 @@ $white: #fff;
     font-family: 'poppins-bold';
 }
 
- 
+
 
 // =====================================
 
@@ -123,6 +123,7 @@ $white: #fff;
             &:nth-child(2) {
                 img {
                     max-width: 275px;
+
                     @media(max-width:768px) {
                         width: 190px;
                     }
@@ -153,7 +154,7 @@ $white: #fff;
         padding: 0 15px;
         text-align: left;
         display: flex;
-
+        font-family: 'montserrat-regular';
         flex-direction: column;
 
         a {
@@ -271,8 +272,8 @@ $white: #fff;
     background: linear-gradient(67deg, #000000 8.8918585526%, #05948C 48.2696533203%, #7B62DF 80.9020996094%);
 }
 
-footer{
-    img{
+footer {
+    img {
         max-width: 250px;
     }
 }
@@ -438,7 +439,7 @@ a {
 }
 
 .sit_status {
-    display: flex; 
+    display: flex;
     column-gap: 15px;
     row-gap: 6px;
 
@@ -459,6 +460,7 @@ a {
         font-size: 15px;
         background: #343535;
         color: $white;
+
         &:hover {
             background: #0062EF;
             color: #fff;
@@ -477,9 +479,9 @@ a {
 .bottom-box {
     @media(min-width:1024px) {
         position: absolute;
-         left: 0;
-         right: 15px;
-        bottom:0;
+        left: 0;
+        right: 15px;
+        bottom: 0;
     }
 
 }
@@ -533,7 +535,7 @@ a {
         color: #fff;
         display: flex;
         justify-content: space-between;
-        align-items: center;  
+        align-items: center;
         padding: 13px 25px;
         border-radius: 30px;
         font-size: 20px;
@@ -607,6 +609,7 @@ a {
 
     }
 }
+
 .top-search-events-new-two {
     background-image: url(../images/brickbackground.avif);
     @extend .top-search-events-new;
@@ -619,7 +622,7 @@ a {
 
 .about {
     background: linear-gradient(to right, #000000 29%, #214ED7, #00968C);
-    
+
 
     @media(min-width:1024px) {
         height: 430px;
@@ -661,7 +664,7 @@ a {
 .list-unstyled {
     padding-left: 0;
     list-style: none;
-    font-family: 'para-text';
+    font-family: 'montserrat-regular';
 
     @media (max-width:768px) {
         text-align: center;
