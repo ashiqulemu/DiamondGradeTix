@@ -104,6 +104,7 @@ $white: #fff;
 
             &:nth-child(2) {
                 img {
+                    max-width: 275px;
                     @media(max-width:768px) {
                         width: 190px;
                     }
@@ -252,6 +253,11 @@ $white: #fff;
     background: linear-gradient(67deg, #000000 8.8918585526%, #05948C 48.2696533203%, #7B62DF 80.9020996094%);
 }
 
+footer{
+    img{
+        max-width: 250px;
+    }
+}
 
 .footer-bg {
     background: $white;

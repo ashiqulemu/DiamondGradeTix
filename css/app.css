@@ -72,6 +72,9 @@
 .site-header .header-row .columns {
   flex: 1;
 }
+.site-header .header-row .columns:nth-child(2) img {
+  max-width: 275px;
+}
 @media (max-width: 768px) {
   .site-header .header-row .columns:nth-child(2) img {
     width: 190px;
@@ -194,6 +197,10 @@
 
 .form-bg {
   background: linear-gradient(67deg, #000000 8.8918585526%, #05948C 48.2696533203%, #7B62DF 80.9020996094%);
+}
+
+footer img {
+  max-width: 250px;
 }
 
 .footer-bg {
