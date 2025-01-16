@@ -30,6 +30,14 @@
   src: url("../fonts/horizon.otf");
   font-family: "horizon";
 }
+@font-face {
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: "poppins";
+}
+@font-face {
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-family: "poppins-bold";
+}
 .para-text {
   font-family: "para-text";
 }
@@ -41,6 +49,14 @@
 
 .montserrat-bold {
   font-family: "montserrat-bold";
+}
+
+.poppins {
+  font-family: "poppins";
+}
+
+.poppins-bold {
+  font-family: "poppins-bold";
 }
 
 .montserrat-regular {
