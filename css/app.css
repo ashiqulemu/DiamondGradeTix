@@ -111,13 +111,13 @@
 @media (max-width: 375px) {
   .site-header .header-row .columns:nth-child(2) img {
     width: 146px;
-    margin-left: 52%;
+    margin-left: 51%;
   }
 }
 @media (max-width: 320px) {
   .site-header .header-row .columns:nth-child(2) img {
     width: 102px;
-    margin-left: 57%;
+    margin-left: 56%;
   }
 }
 @media (max-width: 650px) {
