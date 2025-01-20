@@ -364,7 +364,7 @@ a:hover h5 {
   color: #fff;
 }
 .sit_status label:hover {
-  background: #0062EF;
+  background: #00968C;
   color: #fff;
 }
 .sit_status .sit:checked + label {
@@ -403,7 +403,7 @@ a:hover h5 {
   border: 0;
 }
 .hover-teal:hover {
-  background: #00968C !important;
+  background: linear-gradient(to right, #00968C, #214ED7);
 }
 
 .seat_plan {

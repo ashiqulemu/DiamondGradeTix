@@ -462,7 +462,7 @@ a {
         color: $white;
 
         &:hover {
-            background: #0062EF;
+            background: #00968C;
             color: #fff;
         }
     }
@@ -507,7 +507,7 @@ a {
     border: 0;
 
     &:hover {
-        background: #00968C !important;
+        background:linear-gradient(to right, #00968C, #214ED7);
     }
 }
 
