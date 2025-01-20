@@ -96,6 +96,12 @@
     width: 190px;
   }
 }
+@media (max-width: 650px) {
+  .site-header .header-row .columns:nth-child(2) img {
+    width: 162px;
+    margin-left: 58%;
+  }
+}
 @media (max-width: 425px) {
   .site-header .header-row .columns:nth-child(2) img {
     width: 162px;
@@ -112,6 +118,11 @@
   .site-header .header-row .columns:nth-child(2) img {
     width: 102px;
     margin-left: 57%;
+  }
+}
+@media (max-width: 650px) {
+  .site-header .header-row .columns:nth-child(3) .btn-theme span {
+    display: none;
   }
 }
 
