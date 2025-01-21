@@ -391,10 +391,17 @@ a:hover h5 {
   font-size: 15px;
   background: #343535;
   color: #fff;
+  width: 120px;
+  text-align: center;
 }
 .sit_status label:hover {
   background: #00968C;
   color: #fff;
+}
+@media (max-width: 768px) {
+  .sit_status label {
+    width: 160px;
+  }
 }
 .sit_status .sit:checked + label {
   background-color: #00968C;
