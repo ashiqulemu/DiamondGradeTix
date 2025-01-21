@@ -370,9 +370,7 @@ a:hover h5 {
 
 .sit_status {
   display: flex;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
-  row-gap: 6px;
+  gap: 6px;
 }
 @media (max-width: 768px) {
   .sit_status {

@@ -467,8 +467,7 @@ a {
 
 .sit_status {
     display: flex;
-    column-gap: 15px;
-    row-gap: 6px;
+     gap: 6px;
 
     @media(max-width:768px) {
         justify-content: center;
