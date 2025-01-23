@@ -617,4 +617,9 @@ a:hover h5 {
   .book-now {
     width: 85%;
   }
+}
+
+.form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
 }/*# sourceMappingURL=app.css.map */
