@@ -42,6 +42,10 @@
   font-family: "para-text";
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .wider {
   font-family: "wider";
   font-weight: bold;
